@@ -1,0 +1,13 @@
+i = 4
+d = 4.0
+s = 'HackerRank '
+# Declare second integer, double, and String variables.
+val = int(input())
+myfloat = float(input())
+mystring = input()
+varadd = i + val
+doubleadd = d + myfloat
+statement = s + "" + mystring
+print(varadd)
+print(doubleadd)
+print(statement)
