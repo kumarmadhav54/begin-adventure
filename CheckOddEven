@@ -1,0 +1,14 @@
+fun main(args: Array<String>) {
+    var reader = Scanner(System.`in`)
+    println("Enter an integer number: ")
+    val y: Int = reader.nextInt()
+        if (y % 2 != 0) {
+            println("weird")
+        } else {
+            when (y) {
+                in 2..5 -> print("Not Weird")
+                in 6..20 -> print("Weird")
+                else -> print("Not Weird")
+            }
+    }
+}
