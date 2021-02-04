@@ -1,0 +1,11 @@
+fun main(args: Array<String>) {
+    //val scan = Scanner(System.`in`)
+    var reader = Scanner(System.`in`)
+    println("Enter an integer number: ")
+   // val n = scan.nextLine().trim().toInt()
+    val n: Int = reader.nextInt()
+    for (y: Int in 1..10) {
+        var x: Int = (n * y)
+        println("$n x $y = $x")
+    }
+}
